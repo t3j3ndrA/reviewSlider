@@ -1,0 +1,108 @@
+* {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.12rem;
+}
+/*  */
+
+/* Body CSS */
+body {
+  background-color: rgb(72 154 147 / 27%);
+}
+/*  */
+
+/* Container */
+.container {
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*  */
+
+/* Main Heading Styling goes here */
+.heading {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  margin: 5px;
+}
+/*  */
+
+/* Stylish Underline */
+.underline {
+  width: 20%;
+  height: 10px;
+  margin: 0px auto 20px auto;
+  background-color: black;
+  border-radius: 30px;
+}
+/*  */
+
+/* Review BOX */
+.box {
+  border: 2px solid #dad8d8;
+  width: 50%;
+  background-color: rgb(228 228 228);
+  padding: 0px;
+  box-shadow: 10px 10px 7px #675454;
+}
+/*  */
+
+/* Image setting */
+.myimg {
+  border-radius: 50%;
+  border: 2px solid rgb(72 154 147 / 27%);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.person-img {
+  padding: 20px;
+  margin: auto;
+  width: 132px;
+  height: 152px;
+  border: 2px solida black;
+}
+/*  */
+
+/* Person Informations */
+.name {
+  font-weight: bold;
+}
+
+.job {
+  padding: 20px;
+  color: rgb(15, 126, 89);
+}
+.info {
+  margin: 7px;
+  padding: 5px;
+}
+/*  */
+
+/* Button Stylings */
+.sliding-btn {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.random {
+  margin: 10px;
+  pad: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+}
